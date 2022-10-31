@@ -1,0 +1,3 @@
+﻿  Main.cpp
+D:\Somying's\Job\ADMISSION\Tartu\MSC\Concurrent\StefanCppParallel\StefanConcurrentProject\StefanConcurrent\StefanConcurrent\Main.cpp(7,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  StefanConcurrent.vcxproj -> D:\Somying's\Job\ADMISSION\Tartu\MSC\Concurrent\StefanCppParallel\StefanConcurrentProject\StefanConcurrent\StefanConcurrent\Debug\StefanConcurrent.exe
