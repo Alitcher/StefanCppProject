@@ -12,13 +12,12 @@ void TestRectangle()
 	cout << "Perimeter is: " << mn.GetPerimeter() << endl;
 }
 
-void main()
+int main()
 {
-	//polymorphism = multiple functions with the same name but different arguments
-	//testMatrix();
-	//testPointer();
 	TestRectangle();
 	cout << "Program Ended" << endl;
-	//return EXIT_SUCCESS;
-	system("pause");//prevent console window to close
+
+	return EXIT_SUCCESS;
+
+	system("pause");
 }
