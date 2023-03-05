@@ -1,0 +1,33 @@
+\hypertarget{_circle2_8h_source}{}\doxysection{Circle2.\+h}
+\label{_circle2_8h_source}\index{include/Circle2.h@{include/Circle2.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}Point2.h"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}Line2.h"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_circle2}{Circle2}}\ }
+\DoxyCodeLine{00007\ \{}
+\DoxyCodeLine{00008\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00009\ \ \ \ \ \mbox{\hyperlink{class_circle2}{Circle2}}();}
+\DoxyCodeLine{00010\ \ \ \ \ \mbox{\hyperlink{class_circle2}{Circle2}}(\mbox{\hyperlink{class_point2}{Point2}}\ np1,\ \textcolor{keywordtype}{float}\ rad);}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \ \ \ \ \textcolor{keywordtype}{float}\ circumference()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{float}\ area()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{bool}\ contains(\mbox{\hyperlink{class_point2}{Point2}}\ p)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{bool}\ contains(\mbox{\hyperlink{class_line2}{Line2}}\ l)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{void}\ scale(\textcolor{keywordtype}{float}\ factor);}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{bool}\ operator<=(\mbox{\hyperlink{class_line2}{Line2}}\ l);}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{bool}\ operator<=(\mbox{\hyperlink{class_point2}{Point2}}\ p);}
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keyword}{friend}\ std::ostream\&\ operator<<(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_circle2}{Circle2}}\&\ circle);}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{class_point2}{Point2}}\ p1;}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{class_point2}{Point2}}\ p2;}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{float}\ r;}
+\DoxyCodeLine{00025\ \};}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ std::ostream\&\ operator<<(std::ostream\&\ os,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{class_circle2}{Circle2}}\&\ circle);}
+
+\end{DoxyCode}
